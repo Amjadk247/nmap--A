@@ -1,0 +1,141 @@
+mtech@programminglab-28:/home/student/Desktop$ sudo tcpdump -A tcp
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on enp2s0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+15:36:25.167721 IP programminglab-28.44248 > 151.101.193.91.https: Flags [P.], seq 2657983262:2657983301, ack 1210690055, win 516, options [nop,nop,TS val 101822285 ecr 1802669], length 39
+E..[._@.@..3
+
+.?.e.[.....m..H)......dW.....
+...M........"....~.........gFi......@.E0.......
+15:36:25.167737 IP programminglab-28.40984 > 146.75.45.91.https: Flags [P.], seq 74493464:74493503, ack 3977905810, win 590, options [nop,nop,TS val 3424100023 ecr 1802558], length 39
+E..[..@.@..#
+
+.?.K-[.....p.........N.<.....
+.......>...."|..[...y	AP.....u$....pA..'...!V.~
+15:36:25.167877 IP 146.75.45.91.https > programminglab-28.40984: Flags [.], ack 39, win 1540, options [nop,nop,TS val 1820415 ecr 3424100023], length 0
+E..4~.@.@....K-[
+
+.?.........p.?....+......
+........
+15:36:25.167887 IP 151.101.193.91.https > programminglab-28.44248: Flags [.], ack 39, win 1540, options [nop,nop,TS val 1820415 ecr 101822285], length 0
+E..4.g@.@..S.e.[
+
+.?....H)...m.E...........
+.......M
+15:36:25.200455 IP 151.101.193.91.https > programminglab-28.44248: Flags [P.], seq 1:40, ack 39, win 1540, options [nop,nop,TS val 1820425 ecr 101822285], length 39
+E..[.h@.@..+.e.[
+
+.?....H)...m.E...........
+...	...M...."
+..p.6..9.....5C.$.1....Y.........
+15:36:25.214119 IP 146.75.45.91.https > programminglab-28.40984: Flags [P.], seq 1:40, ack 39, win 1540, options [nop,nop,TS val 1820429 ecr 3424100023], length 39
+E..[~.@.@....K-[
+
+.?.........p.?.....S.....
+............"...Z..:.]$..b...t.A`...E*...N....:
+15:36:25.214137 IP programminglab-28.40984 > 146.75.45.91.https: Flags [.], ack 40, win 590, options [nop,nop,TS val 3424100070 ecr 1820429], length 0
+E..4..@.@..I
+
+.?.K-[.....p.?.......N.......
+.......
+15:36:25.240926 IP programminglab-28.44248 > 151.101.193.91.https: Flags [.], ack 40, win 516, options [nop,nop,TS val 101822359 ecr 1820425], length 0
+E..4.`@.@..Y
+
+.?.e.[.....m.EH)......d0.....
+.......	
+15:36:34.168232 IP programminglab-28.40976 > lb-140-82-114-21-iad.github.com.https: Flags [P.], seq 436425369:436425408, ack 3488410077, win 638, options [nop,nop,TS val 4079348151 ecr 1805508], length 39
+E..[p.@.@..k
+
+.?.Rr.......R........~	......
+.%.........."..,H.>....Z....+.....M.K..<.x(.~..
+15:36:34.168377 IP lb-140-82-114-21-iad.github.com.https > programminglab-28.40976: Flags [.], ack 39, win 1540, options [nop,nop,TS val 1823115 ecr 4079348151], length 0
+E..4.;@.@....Rr.
+
+.?..........R......*.....
+.....%..
+15:36:34.456080 IP lb-140-82-114-21-iad.github.com.https > programminglab-28.40976: Flags [P.], seq 1:40, ack 39, win 1540, options [nop,nop,TS val 1823202 ecr 4079348151], length 39
+E..[.<@.@....Rr.
+
+.?..........R.....G......
+.....%......"..o.$t.n...'W(.3..................
+15:36:34.456094 IP programminglab-28.40976 > lb-140-82-114-21-iad.github.com.https: Flags [.], ack 40, win 638, options [nop,nop,TS val 4079348439 ecr 1823202], length 0
+E..4p.@.@...
+
+.?.Rr.......R........~	......
+.%......
+15:36:35.390362 IP lb-140-82-114-21-iad.github.com.https > programminglab-28.40976: Flags [P.], seq 40:79, ack 39, win 1540, options [nop,nop,TS val 1823482 ecr 4079348439], length 39
+E..[.=@.@....Rr.
+
+.?..........R.....]K.....
+.....%......"...j.>&V....+.Z4zTt.bzF..Q...	.i..
+15:36:35.390396 IP programminglab-28.40976 > lb-140-82-114-21-iad.github.com.https: Flags [.], ack 79, win 638, options [nop,nop,TS val 4079349373 ecr 1823482], length 0
+E..4p.@.@...
+
+.?.Rr.......R....+...~	......
+.%.}....
+15:36:35.390551 IP programminglab-28.40976 > lb-140-82-114-21-iad.github.com.https: Flags [P.], seq 39:78, ack 79, win 638, options [nop,nop,TS val 4079349373 ecr 1823482], length 39
+E..[p.@.@..h
+
+.?.Rr.......R....+...~	......
+.%.}........".~.@..V.f.X(...Sr.....]..0....C...
+15:36:35.390621 IP programminglab-28.40976 > lb-140-82-114-21-iad.github.com.https: Flags [P.], seq 78:102, ack 79, win 638, options [nop,nop,TS val 4079349373 ecr 1823482], length 24
+E..Lp.@.@..v
+
+.?.Rr.......R....+...~	......
+.%.}.........!#.......c....8...o
+15:36:35.390626 IP programminglab-28.40976 > lb-140-82-114-21-iad.github.com.https: Flags [F.], seq 102, ack 79, win 638, options [nop,nop,TS val 4079349373 ecr 1823482], length 0
+E..4p.@.@...
+
+.?.Rr.......R....+...~	......
+.%.}....
+15:36:35.390688 IP lb-140-82-114-21-iad.github.com.https > programminglab-28.40976: Flags [.], ack 78, win 1540, options [nop,nop,TS val 1823482 ecr 4079349373], length 0
+E..4.>@.@....Rr.
+
+.?.......+..R............
+.....%.}
+15:36:35.390767 IP lb-140-82-114-21-iad.github.com.https > programminglab-28.40976: Flags [.], ack 102, win 1540, options [nop,nop,TS val 1823482 ecr 4079349373], length 0
+E..4.?@.@....Rr.
+
+.?.......+..R......h.....
+.....%.}
+15:36:35.428619 IP lb-140-82-114-21-iad.github.com.https > programminglab-28.40976: Flags [.], ack 103, win 1540, options [nop,nop,TS val 1823494 ecr 4079349373], length 0
+E..4.@@.@....Rr.
+
+.?.......+..S......[.....
+.....%.}
+15:36:35.678537 IP lb-140-82-114-21-iad.github.com.https > programminglab-28.40976: Flags [P.], seq 79:103, ack 103, win 1540, options [nop,nop,TS val 1823568 ecr 4079349373], length 24
+E..L.A@.@....Rr.
+
+.?.......+..S.....`......
+...P.%.}...........d.Pr..\.x.].M
+15:36:35.678574 IP programminglab-28.40976 > lb-140-82-114-21-iad.github.com.https: Flags [R], seq 436425472, win 0, length 0
+E..(..@.@.1 
+
+.?.Rr.......S.....P....a..
+15:36:35.678627 IP lb-140-82-114-21-iad.github.com.https > programminglab-28.40976: Flags [F.], seq 103, ack 103, win 1540, options [nop,nop,TS val 1823568 ecr 4079349373], length 0
+E..4.B@.@....Rr.
+
+.?.......C..S............
+...P.%.}
+15:36:35.678628 IP programminglab-28.40976 > lb-140-82-114-21-iad.github.com.https: Flags [R], seq 436425472, win 0, length 0
+E..(..@.@.1 
+
+.?.Rr.......S.....P....a..
+15:36:57.145382 IP lb-140-82-114-25-iad.github.com.https > programminglab-28.37176: Flags [P.], seq 150361326:150361352, ack 1216164446, win 1540, options [nop,nop,TS val 1830008 ecr 1711579430], length 26
+E..N.*@.@.i..Rr.
+
+.?...8..T.H}2^....p......
+...xf..&.....7#,4x.\...\..........
+15:36:57.145578 IP programminglab-28.37176 > lb-140-82-114-25-iad.github.com.https: Flags [P.], seq 1:31, ack 26, win 594, options [nop,nop,TS val 1711639435 ecr 1830008], length 30
+E..R..@.@...
+
+.?.Rr..8..H}2^..U....R	......
+f......x.....H..&\U5.y..!U.r...?$\....
+15:36:57.145692 IP lb-140-82-114-25-iad.github.com.https > programminglab-28.37176: Flags [.], ack 31, win 1540, options [nop,nop,TS val 1830009 ecr 1711639435], length 0
+E..4.+@.@.i..Rr.
+
+.?...8..U.H}2|...........
+...yf...
+^C
+27 packets captured
+27 packets received by filter
+0 packets dropped by kernel
