@@ -1,0 +1,18 @@
+student@programminglab-28:~/Desktop$ ifconfig
+enp2s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.10.1.63  netmask 255.255.0.0  broadcast 10.10.255.255
+        inet6 fe80::51a8:a8c5:cc8c:20cb  prefixlen 64  scopeid 0x20<link>
+        ether f4:6b:8c:8d:2d:50  txqueuelen 1000  (Ethernet)
+        RX packets 425039  bytes 75675280 (75.6 MB)
+        RX errors 0  dropped 106  overruns 0  frame 0
+        TX packets 54966  bytes 10570333 (10.5 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 16248  bytes 1435689 (1.4 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 16248  bytes 1435689 (1.4 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
